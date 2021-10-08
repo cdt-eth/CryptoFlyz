@@ -17,29 +17,30 @@ export default function Home() {
           <img src="/BG-image.png" className="image1"/>
           <img src="mint button.gif" className="image2"/>
         </div>
-
-        <p id="subtitle" className={styles.description}>
-          CryptoFlyz are small, randomly generated companions for your CrypToad.<br></br>
-          For every one toad in your wallet, you can claim one Fly.<br></br>
-          <br></br>
-          1 Toad = 1 Fly. 2 Toadz = 2 Flyz and so on.<br></br>
-          <br></br>
-          The Flyz are free to claim (you just pay gas) and come with a range of traits:<br></br>
-          some based on classic Toad traits, some brand new, some common, and some less common.<br></br>
-          <br></br>
-          The mint period will last for two weeks until October 24th, and<br></br>
-          after that, we will decide how to best distribute any left over Flyz to the community.<br></br>
-          <br></br>
-          Finally, enormous thanks and eternal respect to<br></br>
-          Gremplin and the CrypToadz team.<br></br>
-          <br></br>
-          !vibe<br></br>
-          <br></br>
-          <hr/>
-          <br></br>
-          Made By:
-          <br></br>
-        </p>
+        <div>
+          <p id="subtitle" className={styles.description}>
+            CryptoFlyz are small, randomly generated companions for your CrypToad.<br></br>
+            For every one toad in your wallet, you can claim one Fly.<br></br>
+            <br></br>
+            1 Toad = 1 Fly. 2 Toadz = 2 Flyz and so on.<br></br>
+            <br></br>
+            The Flyz are free to claim (you just pay gas) and come with a range of traits:<br></br>
+            some based on classic Toad traits, some brand new, some common, and some less common.<br></br>
+            <br></br>
+            The mint period will last for two weeks until October 24th, and<br></br>
+            after that, we will decide how to best distribute any left over Flyz to the community.<br></br>
+            <br></br>
+            Finally, enormous thanks and eternal respect to<br></br>
+            Gremplin and the CrypToadz team.<br></br>
+            <br></br>
+            !vibe<br></br>
+            <br></br>
+            <hr/>
+            <br></br>
+            Made By:
+            <br></br>
+          </p>
+        </div>
 
         <div className={styles.grid}>
           

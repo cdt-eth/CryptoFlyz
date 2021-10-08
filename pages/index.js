@@ -17,7 +17,7 @@ export default function Home() {
           <img src="/BG-image.png" className="image1"/>
           <img src="mint button.gif" className="image2"/>
         </div>
-        <div>
+        <div id="stay">
           <p id="subtitle" className={styles.description}>
             CryptoFlyz are small, randomly generated companions for your CrypToad.<br></br>
             For every one toad in your wallet, you can claim one Fly.<br></br>
@@ -35,18 +35,18 @@ export default function Home() {
             <br></br>
             !vibe<br></br>
             <br></br>
-            <hr/>
+            <hr></hr>
             <br></br>
             Made By:
             <br></br>
           </p>
         </div>
 
-        <div className={styles.grid}>
+        <div id="stay2" className={styles.grid}>
           
           <figure id="fig1">
             <img src="/mason-pfp.png" width="125px"></img>
-            <figcaption id="subtitle2" >Mason London<br></br>(the pictures)</figcaption>
+            <figcaption id="subtitle2">Mason London<br></br>(the pictures)</figcaption>
             <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/masonlondon">
               <img className="twitterPng" src="twitter-icon.png"></img>
             </a>
@@ -54,7 +54,7 @@ export default function Home() {
 
           <figure id="fig2">
             <img src="/klee-pfp.png" width="125px"></img>
-            <figcaption id="subtitle2" >Klee<br></br>(the code)</figcaption>
+            <figcaption id="subtitle2">Klee<br></br>(the code)</figcaption>
             <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/kevlee97">
               <img className="twitterPng" src="twitter-icon.png"></img>
             </a>

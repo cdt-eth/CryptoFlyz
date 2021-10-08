@@ -28,7 +28,7 @@ export default function Home() {
           some based on classic Toad traits, some brand new, some common, and some less common.<br></br>
           <br></br>
           The mint period will last for two weeks until October 24th, and<br></br>
-          after that, we'll decide how to best distribute any left over Flyz to the community.<br></br>
+          after that, we will decide how to best distribute any left over Flyz to the community.<br></br>
           <br></br>
           Finally, enormous thanks and eternal respect to<br></br>
           Gremplin and the CrypToadz team.<br></br>

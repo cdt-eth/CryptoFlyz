@@ -1,9 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Boxing Wizards";
+  src: url("//db.onlinewebfonts.com/t/a73f21ab567338917541bc724cfd7f35.eot");
+  src: url("//db.onlinewebfonts.com/t/a73f21ab567338917541bc724cfd7f35.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/a73f21ab567338917541bc724cfd7f35.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/a73f21ab567338917541bc724cfd7f35.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/a73f21ab567338917541bc724cfd7f35.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/a73f21ab567338917541bc724cfd7f35.svg#Boxing Wizards")
+      format("svg");
+}
+
+@font-face {
+  font-family: "Superscratchy";
+  src: url("/fonts/Superscratchy.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+
+
 html,
 body {
+  background-color: rgba(7,18,38,255);
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+}
+
+.parent {
+  position: absolute;
+  top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image1 {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.image2 {
+  position: absolute;
+  top: 12.5%;
+  left: 37.5%;
+  width: 25%;
+}
+
+.connectWallet {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 100px;
+}
+
+.title {
+  font-family: "Boxing Wizards";
+  font-family: "Superscratchy";
+  margin: 0;
+  line-height: 1.15;
+  margin-top: 10px;
+  font-size: 40px;
+  color: white;
+}
+
+#subtitle {
+  font-family: "Boxing Wizards";
+  font-family: "Superscratchy";
+  margin: 0;
+  line-height: 2;
+  margin-top: 1050px;
+  font-size: 20px;
+  color: lightgray;
+}
+
+#subtitle2 {
+  font-family: "Boxing Wizards";
+  font-family: "Superscratchy";
+  margin: 0;
+  margin-top: 20px;
+  line-height: 1.5;
+  font-size: 15px;
+  color: lightgray;
+  text-align: center;
+}
+
+#fig1{
+  margin-right: 20px;
+}
+
+#fig2{
+  margin-left: 20px;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid lightgray;
+  margin: 1em 0;
+  padding: 0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.twitterPng {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30px;
 }
 
 a {
